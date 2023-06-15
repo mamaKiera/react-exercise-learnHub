@@ -1,0 +1,13 @@
+.banner {
+    background-color: #DDE6ED;
+    padding: 48px 32px;
+}
+
+.banner h1 {
+    margin: 0px;
+}
+
+.banner p {
+    color: #526D82;
+    margin: 0px;
+}

@@ -1,0 +1,61 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #9DB2BF;
+    color: #fff;
+    border-radius: 12px;
+    overflow:hidden;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    aspect-ratio: 16 / 9; 
+    object-fit: cover; 
+  }
+  
+  .description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .lastLine {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 32px;
+  }
+
+  .comment {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 16px;
+    }
+    .subtitle {
+      font-size: 14px;
+    }
+  }
